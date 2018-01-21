@@ -11,7 +11,7 @@ int main(int argc, char const *argv[]) {
     position = (highest > number ) ? position : n;
     highest = (highest > number ) ? highest : number;
     n++;
-  } while(n<100);
+  } while(n<=100);
 
   printf("%d\n",highest);
   printf("%d\n",position );
