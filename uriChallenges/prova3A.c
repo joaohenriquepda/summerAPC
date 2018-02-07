@@ -12,13 +12,13 @@ int main() {
 
     scanf("%d %d",&x,&y );
 
-    for (k = 0; k < x; k++) {
-
-      for (j = 0; j < y; j++) {
+    for (k = 0; k < ; k++) {
+      for (j = 0; j < x; j++) {
         printf("%d ",j+k);
       }
-      printf("\n");
-    }
+
+    printf("\n");
+  }
   }
 
   return 0;
